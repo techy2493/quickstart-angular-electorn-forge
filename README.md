@@ -2,6 +2,12 @@
 
 ## A Quick-Start App For Angular with Electron using Electron Forge
 
+### Versions
+
+Angular: 16
+
+Electron Forge: 6
+
 ### Making it your own
 
 To start with, replace my-app with the name of your application everywhere it appears.
