@@ -1,27 +1,31 @@
-# AngularElectronForge
+# Angular Electron Forge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+## A Quick-Start App For Angular with Electron using Electron Forge
 
-## Development server
+### Making it your own
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To start with, replace my-app with the name of your application everywhere it appears.
+Do not forget to rename the my-app folder in projects!
 
-## Code scaffolding
+Update the package.json with your own information
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+  "name": "angular-electron-forge",
+  "productName": "angular-electron-forge",
+  "version": "1.0.0",
+  "description": "An example project of Angular with Electron Forge",
+  "author": {
+    "name": "YourName",
+    "email": "Your@Email.com"
+  },
+  "license": "MIT",
+```
 
-## Build
+### Credits
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This project was initially created following a guide by ahmed.loudghiri found at
+https://medium.com/@ahmed.loudghiri/bridging-the-gap-crafting-an-angular-electron-application-with-typescript-using-angular-cli-and-74cb359daa4a
 
-## Running unit tests
+### Maintenance
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+I will update this project every time I update my own projects it is based on however that may be in-frequent. I will be accepting pull requests for anyone interested in contributing.
