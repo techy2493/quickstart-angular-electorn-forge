@@ -8,6 +8,22 @@ Angular: 16
 
 Electron Forge: 6
 
+### Folder Structure
+
+### Workspace Root
+
+This is structured as a multi-project angular workspace with the appropriate build files and subfolders you would expect.
+
+#### /projects/electron
+
+This is the main electron application code.
+
+index.ts (also commonly named main.ts) initializes the main application window.
+
+#### /projects/my-app/
+
+This is the mian Angular application and is structured like most other applications
+
 ### Making it your own
 
 To start with, replace my-app with the name of your application everywhere it appears.
@@ -30,9 +46,17 @@ Update the package.json with your own information
 ### Debugging
 
 #### VS Code
+
 Launch with Electron:All configuration.
 
 Electron will appear first and be white, a short while later the angular page will render. Breakpoints in both Main (electorn) and Render (angular) files will be hit.
+
+### Chrome Dev Tools
+
+Warning, to allow VS Code debugging to bind you must not open the dev tools on load of electron (via main.ts).
+
+Angular Devtools is provided in main.ts
+https://angular.io/guide/devtools
 
 ### Credits
 
