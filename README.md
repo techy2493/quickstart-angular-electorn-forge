@@ -27,6 +27,13 @@ Update the package.json with your own information
   "license": "MIT",
 ```
 
+### Debugging
+
+#### VS Code
+Launch with Electron:All configuration.
+
+Electron will appear first and be white, a short while later the angular page will render. Breakpoints in both Main (electorn) and Render (angular) files will be hit.
+
 ### Credits
 
 This project was initially created following a guide by ahmed.loudghiri found at
