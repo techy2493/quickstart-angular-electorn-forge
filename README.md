@@ -10,7 +10,7 @@ Electron Forge: 6
 
 ### Folder Structure
 
-### Workspace Root
+#### Workspace Root
 
 This is structured as a multi-project angular workspace with the appropriate build files and subfolders you would expect.
 
