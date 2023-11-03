@@ -51,7 +51,7 @@ Launch with Electron:All configuration.
 
 Electron will appear first and be white, a short while later the angular page will render. Breakpoints in both Main (electorn) and Render (angular) files will be hit.
 
-### Chrome Dev Tools
+#### Chrome Dev Tools
 
 Warning, to allow VS Code debugging to bind you must not open the dev tools on load of electron (via main.ts).
 
