@@ -16,6 +16,7 @@
     "make": "npm run build-electron && npm run build && electron-forge make",
     "publish-app": "npm run build-electron && npm run build && electron-forge publish",
     "start": "concurrently \"npm run build-electron\" \"ng serve my-app\" \"wait-on http://localhost:4200 && electron-forge start\"",
+    "serve": "concurrently \"npm run build-electron\" \"ng serve my-app\" \"wait-on http://localhost:4200\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
